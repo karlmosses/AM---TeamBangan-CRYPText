@@ -122,6 +122,7 @@ public class Send extends AppCompatActivity {
                 output += Character.toString((char) ((((cur - A_num) + rotation) % 26) + A_num));
             }
         }
+        //what encryption algo you use ?  
 
         return output;
     }
